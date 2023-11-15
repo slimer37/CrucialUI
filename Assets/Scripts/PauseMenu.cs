@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Canvas canvas;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            canvas.enabled = !canvas.enabled;
+        }
     }
 }
