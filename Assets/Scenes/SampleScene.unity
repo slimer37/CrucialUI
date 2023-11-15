@@ -335,6 +335,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 4
+  _animator: {fileID: 1683330576}
+  _sprite: {fileID: 1683330574}
+  _crossTime: 0.1
+  _minWalkAnimSpeed: 0.1
 --- !u!50 &1683330578
 Rigidbody2D:
   serializedVersion: 4
