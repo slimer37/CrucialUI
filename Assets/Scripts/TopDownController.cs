@@ -19,9 +19,6 @@ public class TopDownController : MonoBehaviour
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
-
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
